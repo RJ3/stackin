@@ -9,7 +9,7 @@ Bio-Formats Matlab from Open Microscopy Environment (OME)
 https://github.com/ome/bio-formats-matlab/tree/master/src
 
 Dependencies for Andor .SIF and .SIFX loading:
-Proprietary .SO or .DLL blobs from Andor and binds in C to create mex files.
+Proprietary .SO or .DLL blobs from Andor and binds in C to create mex.
 
 stackin has functions that can be used to load in image stacks (videos) while respecting the frame rate (fps) or period (dt)
 of the video.
