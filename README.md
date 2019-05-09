@@ -14,4 +14,4 @@ Proprietary .SO or .DLL blobs from Andor and binds in C to create mex.
 - Open .TIF/.TIFF files, especially those taken with MetaMorph 7.5 TIFF format
 - Open Andor .SIF and .SIFX files, using some proprietary blobs
 - Open Nikon .ND2 or Zeiss .LSM using Bio-formats-matlab*
-* You must also load in bfmatlab repository as another submodule and download bioformats_package.jar from OME.
+  * You must also load in bfmatlab repository as another submodule and download bioformats_package.jar from OME.
