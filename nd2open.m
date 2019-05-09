@@ -7,7 +7,7 @@ function [data,dt,fname]=nd2open(source)
 
 switch nargin
     case 0 % source was unspecified
-        [fname,pname]=uigetfile({'*.nd2'},'Select a Nikon .nd2 file','/run/media/data/Data/');
+        [fname,pname]=uigetfile({'*.nd2'},'Select a Nikon .nd2 file','');
         source=[pname,fname];    
     case 1 % file source was specified
         fname=[]; % these output vars will be blank, since source was specified
