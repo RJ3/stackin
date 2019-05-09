@@ -5,7 +5,7 @@ function [data3, fps, fname, pname]=tifopen(source)
 % 2019-05-07 ver 1.1 RJ3 - modified "nImage-1" correction and manual fps
 % enter if not detected.
 
-seed='/media/';
+seed='';
 
 switch nargin
     case 0 % source was unspecified
