@@ -5,10 +5,12 @@ stackin is a new repository meant to be loaded as a submodule into MATLAB for us
 tools such as Camat and RHYTHM.
 
 Dependencies for Nikon .ND2 and Zeiss .LSM loading:
+
 Bio-Formats Matlab from Open Microscopy Environment (OME)
 https://github.com/ome/bio-formats-matlab/tree/master/src
 
 Dependencies for Andor .SIF and .SIFX loading:
+
 Proprietary .SO or .DLL blobs from Andor and binds in C to create mex.
 
 stackin has functions that can be used to load in image stacks (videos) while respecting the frame rate (fps) or period (dt)
