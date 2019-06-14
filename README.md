@@ -8,7 +8,9 @@ Dependencies for Nikon .ND2, Zeiss .LSM, and other Bio-Formats loading:
 Bio-Formats Matlab from Open Microscopy Environment (OME)
 https://github.com/ome/bio-formats-matlab/tree/master/src  
 Java package download from this page: 
-https://www.openmicroscopy.org/bio-formats/downloads/
+https://www.openmicroscopy.org/bio-formats/downloads/    
+Reference here on how to add .jar to your static java path: 
+https://www.mathworks.com/help/matlab/matlab_external/static-path.html
 
 Dependencies for Andor .SIF and .SIFX loading:  
 Proprietary .SO or .DLL blobs from Andor and binds in C to create mex.
