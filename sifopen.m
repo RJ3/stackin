@@ -22,7 +22,7 @@ seed='E:\Zyla\';
 
 switch nargin
     case 0 % source was unspecified
-        [fname,pname,filterindex]=uigetfile({'*.sif';'*.sifx'},'Select an Andor file',seed);
+        [fname,pname,filterindex]=uigetfile({'*.sif;*.sifx','Andor file (*.sif, *.sifx)'},'Select an Andor file',seed);
         source=[pname,fname];
     case 1 % file source was specified
         fname=[]; % these output vars will be blank, since source was specified
