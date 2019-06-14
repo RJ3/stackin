@@ -3,6 +3,7 @@ function [data3, fps, fname, pname]=tifopen(source)
 % Open TIFF files, especially those taken with MetaMorph 7.5 TIFF format
 % 2018-08-06 ver 1.0 RJ3
 % 2019-05-07 ver 1.1 RJ3 - modified "nImage-1" correction and manual fps
+% 2019-06-14 - PCO uses BifTIFF format with the extension ".pcoraw"
 % enter if not detected.
 
 seed='';
