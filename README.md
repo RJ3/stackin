@@ -4,9 +4,11 @@
 stackin is a new repository meant to be loaded as a submodule into MATLAB for use with cardiac electrophysiology analysis
 tools such as Camat, RHYTHM, and ElectroMap. stackin has functions that can be used to load in image stacks (videos) while respecting the frame rate (fps) or period (dt) of the video.
 
-Dependencies for Nikon .ND2 and Zeiss .LSM loading:  
+Dependencies for Nikon .ND2, Zeiss .LSM, and other Bio-Formats loading:  
 Bio-Formats Matlab from Open Microscopy Environment (OME)
 https://github.com/ome/bio-formats-matlab/tree/master/src
+Java package download from this page:
+https://www.openmicroscopy.org/bio-formats/downloads/
 
 Dependencies for Andor .SIF and .SIFX loading:  
 Proprietary .SO or .DLL blobs from Andor and binds in C to create mex.
