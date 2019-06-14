@@ -6,8 +6,8 @@ tools such as Camat, RHYTHM, and ElectroMap. stackin has functions that can be u
 
 Dependencies for Nikon .ND2, Zeiss .LSM, and other Bio-Formats loading:  
 Bio-Formats Matlab from Open Microscopy Environment (OME)
-https://github.com/ome/bio-formats-matlab/tree/master/src
-Java package download from this page:
+https://github.com/ome/bio-formats-matlab/tree/master/src  
+Java package download from this page: 
 https://www.openmicroscopy.org/bio-formats/downloads/
 
 Dependencies for Andor .SIF and .SIFX loading:  
