@@ -9,7 +9,7 @@ seed='';
 
 switch nargin
     case 0 % source was unspecified
-        [fname,pname]=uigetfile({'*.tif';'*.tiff'},'Select a TIFF Stack',seed);
+        [fname,pname]=uigetfile({'*.tif';'*.tiff';'*.pcoraw'},'Select a TIFF Stack',seed);
         source=[pname,fname];    
     case 1 % file source was specified
         fname=[]; % these output vars will be blank, since source was specified
